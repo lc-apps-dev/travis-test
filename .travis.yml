@@ -10,6 +10,7 @@ deploy:
   # local_dir: "target"
   on:
     all_branches: true
-    tags: true
+    tags: false
+
     # branch: master
 
