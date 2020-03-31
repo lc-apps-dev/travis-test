@@ -9,9 +9,9 @@ deploy:
   file: "target/family-notes-base-0.0.1-SNAPSHOT.jar"
   # local_dir: "target"
   draft: true
-  #on:
-  # all_branches: true
-  # tags: false
+  on:
+    all_branches: true
+    tags: false
 
     # branch: master
 
