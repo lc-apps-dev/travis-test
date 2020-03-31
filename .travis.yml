@@ -6,7 +6,8 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   api_key: $GITHUB_TOKEN
   keep_history: true
-  file: "target/family-notes-base-0.0.1-SNAPSHOT.jar"
+  #file: "target/family-notes-base-0.0.1-SNAPSHOT.jar"
+  local_dir: "target"
   on:
     all_branches: true
     tags: true
