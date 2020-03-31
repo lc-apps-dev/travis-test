@@ -10,6 +10,6 @@ public class NotesWebservice {
 	
 	@RequestMapping("/hello-world/{message}")
 	public String test(@PathVariable String message) {
-		return "Hello from server! Message: " + message;
+		return "Hello from test server! Message: " + message;
 	}
 }
